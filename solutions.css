@@ -69,6 +69,8 @@
 
 
 
+
+
 .ex-8-img{
     transition: all 30s;
 }
@@ -77,6 +79,8 @@
     filter: hue-rotate(360deg) saturate(500%);
     border-radius: 20%;
 }
+
+
 
 
 .ex-9-img{
@@ -91,7 +95,49 @@
 
 
 
+.ex-10-icon{
+    animation: loader 3s linear infinite;
+}
 
+@keyframes loader {
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+.ex-11-icon:hover {
+    animation: spinALittleBit 2s linear;
+}
+@keyframes spinALittleBit {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+/* .ex-11-ico:hover {
+    animation: loader-slow 3s linear;
+}
+@keyframes loader-slow {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+} */
 
 
 
