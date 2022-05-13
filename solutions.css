@@ -79,5 +79,19 @@
 }
 
 
+.ex-9-img{
+    transition: all 6s;
+}
+
+.ex-9-img:hover{
+    filter: drop-shadow(18px 18px 100px rgb(247, 4, 174)) saturate(500%);
+    border-radius: 50%;
+    transform: scale(2,2);
+}
+
+
+
+
+
 
 
