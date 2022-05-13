@@ -54,10 +54,6 @@
 
 
 .ex-6-img:hover{
-    transition: all 5s;
-}
-
-.ex-6-img:hover{
     filter: grayscale(1)
 }
 
